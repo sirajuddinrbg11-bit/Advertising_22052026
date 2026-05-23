@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
-model = pickle.load(open('lr.sav','rb')
+model = pickle.load(open('lr.sav','rb'))
 st.title('Sales Prediction App')
 # Input Features
 TV = st.number_input('TV adv budget', min_val=0.0)
